@@ -6,11 +6,11 @@ function convertToBool(text, fault = 'true') {
     return text === fault ? true : false;
 }
 module.exports = {
-SESSION_ID: process.env.SESSION_ID || "lucky~HBdAFaBT#AybxTUurPvLcTcuOcs627u3tbCMuKW_PnYm_y-zMJBY",
+SESSION_ID: process.env.SESSION_ID || "lucky~aIkQBSbI#S63mEd6wAKrsxiGWXyRha8xYwU1_4Gmeeu8tezFmV7k",
 // add your Session Id make sure it starts with lucky~
-PREFIX: process.env.PREFIX || "*",
+PREFIX: process.env.PREFIX || "π",
 // add your prifix for bot   
-BOT_NAME: process.env.BOT_NAME || "I AM NO ONE",
+BOT_NAME: process.env.BOT_NAME || "THE FLASH",
 // add bot name here for menu
 MODE: process.env.MODE || "public",
 // make bot public-private-inbox-group 
@@ -19,7 +19,7 @@ LINK_WHITELIST: "youtube.com,github.com",
 
     LINK_WARN_LIMIT: 3, // Number of warnings before action
 
-    LINK_ACTION: "kick", // "kick", "mute", or "none"
+    LINK_ACTION: "mute", // "kick", "mute", or "none"
 
         AUTO_STATUS_SEEN: process.env.AUTO_STATUS_SEEN || "true",
 // make true or false status auto seen
@@ -43,23 +43,23 @@ LINK_WHITELIST: "youtube.com,github.com",
       ANTI_LINK: process.env.ANTI_LINK || "true",
 // make anti link true,false for groups 
 
-      MENTION_REPLY: process.env.MENTION_REPLY || "false",
+      MENTION_REPLY: process.env.MENTION_REPLY || "true",
 // make true if want auto voice reply if someone menetion you 
 
-     MENU_IMAGE_URL: process.env.MENU_IMAGE_URL || "https://files.catbox.moe/4itzeu.jpg",
+     MENU_IMAGE_URL: process.env.MENU_IMAGE_URL || "",
 // add custom menu and mention reply image url
 
-       ALIVE_IMG: process.env.ALIVE_IMG || "https://files.catbox.moe/4itzeu.jpg",
+       ALIVE_IMG: process.env.ALIVE_IMG || "",
 // add img for alive msg
 
         LIVE_MSG: process.env.LIVE_MSG || "> ʙᴏᴛ ɪs sᴘᴀʀᴋɪɴɢ ᴀᴄᴛɪᴠᴇ ᴀɴᴅ ᴀʟɪᴠᴇ\n\n\nᴋᴇᴇᴘ ᴜsɪɴɢ ✦LUCKY-XD✦ ғʀᴏᴍ Lucky Tech Hub ɪɴᴄ⚡\n\n\n*© ᴡʜᴀᴛꜱᴀᴘᴘ ʙᴏᴛ - ᴍᴅ\n\n> ɢɪᴛʜᴜʙ :* github.com/Tomilucky218/Lucky-XD2",
 // add alive msg here 
 
 
-        STICKER_NAME: process.env.STICKER_NAME || "JUDAH",
+        STICKER_NAME: process.env.STICKER_NAME || "FLASH",
 // type sticker pack name 
 
-        CUSTOM_REACT: process.env.CUSTOM_REACT || "false",
+        CUSTOM_REACT: process.env.CUSTOM_REACT || "true",
 // make this true for custum emoji react  
   
       CUSTOM_REACT_EMOJIS: process.env.CUSTOM_REACT_EMOJIS || "💝,💖,💗,❤️‍🩹,❤️,🧡,💛,💚,💙,💜,🤎,🖤,🤍",
@@ -68,16 +68,16 @@ LINK_WHITELIST: "youtube.com,github.com",
           DELETE_LINKS: process.env.DELETE_LINKS || "true",
 // automatic delete links witho remove member 
 
-          OWNER_NUMBER: process.env.OWNER_NUMBER || "2348161774710",
+          OWNER_NUMBER: process.env.OWNER_NUMBER || "2348083806476",
 // add your bot owner number
 
-OWNER_NAME: process.env.OWNER_NAME || "NO ONE",
+OWNER_NAME: process.env.OWNER_NAME || "The_Flash",
 // add bot owner name
 
-              DESCRIPTION: process.env.DESCRIPTION || "*© Powered By NO ONE*",
+              DESCRIPTION: process.env.DESCRIPTION || "*© Powered By THE FLASH*",
 // add bot owner name    
 
-        READ_MESSAGE: process.env.READ_MESSAGE || "false",
+        READ_MESSAGE: process.env.READ_MESSAGE || "true",
 // Turn true or false for automatic read msgs
 
                  AUTO_REACT: process.env.AUTO_REACT || "false",
@@ -106,7 +106,7 @@ OWNER_NAME: process.env.OWNER_NAME || "NO ONE",
    READ_CMD: process.env.READ_CMD || "true",
 // true if want mark commands as read 
 
-     DEV: process.env.DEV || "2348161774710",
+     DEV: process.env.DEV || "2348083806476",
 //replace with your whatsapp number    
     
     ANTI_VV: process.env.ANTI_VV || "true",
