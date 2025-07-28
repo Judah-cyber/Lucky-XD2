@@ -6,9 +6,9 @@ function convertToBool(text, fault = 'true') {
     return text === fault ? true : false;
 }
 module.exports = {
-SESSION_ID: process.env.SESSION_ID || "lucky~aIkQBSbI#S63mEd6wAKrsxiGWXyRha8xYwU1_4Gmeeu8tezFmV7k",
+SESSION_ID: process.env.SESSION_ID || "lucky~6MNmjRqQ#DqbiouuiyPSx9TkCMz4H4ccxOqNXLGopbWfHzyW1yik",
 // add your Session Id make sure it starts with lucky~
-PREFIX: process.env.PREFIX || "π",
+PREFIX: process.env.PREFIX || "©",
 // add your prifix for bot   
 BOT_NAME: process.env.BOT_NAME || "THE FLASH",
 // add bot name here for menu
@@ -59,10 +59,10 @@ LINK_WHITELIST: "youtube.com,github.com",
         STICKER_NAME: process.env.STICKER_NAME || "FLASH",
 // type sticker pack name 
 
-        CUSTOM_REACT: process.env.CUSTOM_REACT || "false",
+        CUSTOM_REACT: process.env.CUSTOM_REACT || "true",
 // make this true for custum emoji react  
   
-      CUSTOM_REACT_EMOJIS: process.env.CUSTOM_REACT_EMOJIS || "💝,💖,💗,❤️‍🩹,❤️,🧡,💛,💚,💙,💜,🤎,🖤,🤍",
+      CUSTOM_REACT_EMOJIS: process.env.CUSTOM_REACT_EMOJIS || "💝,💖,💗,❤️‍🩹,❤️,🧡,💛,💚,💙,💜,🤎,🖤,🤍,👍,😁,🥺,😍,👆,🤭,😎,🤣,🥰,💯,✅",
 // chose custom react emojis by yourself 
 
           DELETE_LINKS: process.env.DELETE_LINKS || "true",
@@ -80,7 +80,7 @@ OWNER_NAME: process.env.OWNER_NAME || "The_Flash",
         READ_MESSAGE: process.env.READ_MESSAGE || "true",
 // Turn true or false for automatic read msgs
 
-                 AUTO_REACT: process.env.AUTO_REACT || "false",
+                 AUTO_REACT: process.env.AUTO_REACT || "true",
 // make this true or false for auto react on all msgs
                 ANTI_BAD: process.env.ANTI_BAD || "false",
 // false or true for anti bad words  
