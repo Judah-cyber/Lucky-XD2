@@ -6,11 +6,11 @@ function convertToBool(text, fault = 'true') {
     return text === fault ? true : false;
 }
 module.exports = {
-SESSION_ID: process.env.SESSION_ID || "lucky~iZFRiSrZ#71H0bqwDJEfXD7aUr6vbbRTWUlDDVrPE489ZNXz4vrw",
+SESSION_ID: process.env.SESSION_ID || "lucky~yBFUDJAK#VW8i9oevznhD6pTar0GJJn9B0aBOzu4tL3zwgEjCL9Q",
 // add your Session Id make sure it starts with lucky~
-PREFIX: process.env.PREFIX || "π",
+PREFIX: process.env.PREFIX || "*",
 // add your prifix for bot   
-BOT_NAME: process.env.BOT_NAME || "THE FLASH",
+BOT_NAME: process.env.BOT_NAME || "NARUTO XD",
 // add bot name here for menu
 MODE: process.env.MODE || "public",
 // make bot public-private-inbox-group 
@@ -71,16 +71,16 @@ LINK_WHITELIST: "youtube.com,github.com",
           OWNER_NUMBER: process.env.OWNER_NUMBER || "2348083806476",
 // add your bot owner number
 
-OWNER_NAME: process.env.OWNER_NAME || "The_Flash",
+OWNER_NAME: process.env.OWNER_NAME || "NARUTO",
 // add bot owner name
 
-              DESCRIPTION: process.env.DESCRIPTION || "*© Powered By THE FLASH*",
+              DESCRIPTION: process.env.DESCRIPTION || "*© Powered By  NARUTO*",
 // add bot owner name    
 
         READ_MESSAGE: process.env.READ_MESSAGE || "true",
 // Turn true or false for automatic read msgs
 
-                 AUTO_REACT: process.env.AUTO_REACT || "true",
+                 AUTO_REACT: process.env.AUTO_REACT || "false",
 // make this true or false for auto react on all msgs
                 ANTI_BAD: process.env.ANTI_BAD || "false",
 // false or true for anti bad words  
@@ -100,7 +100,7 @@ OWNER_NAME: process.env.OWNER_NAME || "The_Flash",
          PUBLIC_MODE: process.env.PUBLIC_MODE || "true",
 // make false if want private mod
 
-        AUTO_TYPING: process.env.AUTO_TYPING || "true",
+        AUTO_TYPING: process.env.AUTO_TYPING || "false",
 // true for automatic show typing 
   
    READ_CMD: process.env.READ_CMD || "true",
